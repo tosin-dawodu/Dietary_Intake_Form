@@ -1,0 +1,96 @@
+html {
+  font-size: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+body {
+  font-family: quagmire;
+  font-size: 20px;
+  line-height: 1x;
+  text-align: center;
+}
+
+body::before {
+  content: " ";
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: linear-gradient(
+      150deg,
+      rgba(255, 255, 230, 0.6),
+      rgba(255, 255, 0, 0.8)
+    ),
+    url(https://images.unsplash.com/photo-1610348718584-07f43528231d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  text-align: center;
+}
+
+form {
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 20px;
+  display: block;
+  width: 75%;
+}
+
+form:hover {
+  background: #fefeff;
+}
+
+.form-group {
+  margin: 30px 0 30px 10px;
+  padding: 10px;
+  display: block;
+  text-align: left;
+}
+
+#label-sex {
+  display: block;
+  margin: 20px 0;
+}
+
+label {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.form-control {
+  display: block;
+  width: 70%;
+  height: 10px;
+  padding: 15px;
+  color: #14000a;
+  background-color: #ddfbfc;
+  border: 1px solid #ced4da;
+  border-radius: 25px;
+}
+
+#dropdown-class {
+  width: 73%;
+  height: 40px;
+  padding: 5px;
+  color: #14000a;
+  background-color: #ddfbfc;
+  border: 1px solid #ced4da;
+  border-radius: 25px;
+}
+
+button {
+  background: #ffff00;
+  align: center;
+  width: 35%;
+  margin: 50px auto;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}

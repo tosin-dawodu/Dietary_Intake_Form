@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <html>
+  
+        <body>
+          
+      <div class="container">
+      <main id="main"> </main>
+      <header class="header"> 
+        <h1 id="title"> Dietary Intake Survey Form 
+        </h1>
+        <p1 id="description"> Survey to identify dietary intake of teenagers in X town, Lagos 
+        </p1>
+      </header>
+      
+      <form id="survey-form">
+        
+        <div class="form-group">
+          <label id="name-label" for="name">
+            Name </label>
+          <input 
+                 type="text"
+                 name="name"
+                 id="name"
+                 class="form-control"
+                 placeholder="enter your name"
+                 required
+                 />
+        </div>
+          
+        <div class="form-group">
+        <label id="email-label" for="email"> Email address </label>
+        <input  
+           type="email"
+                 name="email"
+                 id="email"
+                 class="form-control"
+                 placeholder="enter your email address"
+                 required
+                 />
+        </div>
+        
+        <div class="form-group">
+          <label id="label-age" for="age">
+            Age
+          </label>
+           <input  
+           type="number"
+                 name="age"
+                 id="age"
+                  min= "17"
+                  max="80"
+                 class="form-control"
+                 placeholder="age"
+                 required
+                 />
+        </div>
+        
+        <div class="form-group">
+          <label id="label-sex" for="sex"> Sex 
+          </label>
+         <label> 
+          <input
+                 name="sex"
+                 type="radio"
+                 value= "female"
+                 class= "sex"
+                 checked />
+                 Female </label> 
+          
+          <label> 
+          <input
+                 name="sex"
+                 type="radio"
+                 value= "male"
+                 class= "sex"
+                 />
+                 Male </label> 
+          
+          <label> 
+          <input
+                 name="sex"
+                 type="radio"
+                 value= "other"
+                 class= "sex"
+                 />
+                 Prefer not to mention </label> 
+          
+        </div>
+        
+        <div class="form-group">
+          <label id="number" for="weight">
+           Current weight (KG)
+          </label>
+           <input  
+           type="number"
+                 name="weight"
+                 id="number"
+                 class="form-control"
+                 placeholder="current weight"
+                 required
+                 />
+        </div>
+        
+        <div class="form-group">
+          <label id="label-height" for="height">
+            Height (Metres)
+          </label>
+           <input  
+           type="number"
+                 name="height"
+                 id="height"
+                  min="1.50"
+                  max="2.00"
+                 class="form-control"
+                 placeholder="height"
+                 required
+                 />
+        </div>
+        
+         <div class="form-group">
+          <label id="occupation-label" for="occupation">
+            Occupation </label>
+          <input 
+                 type="text"
+                 name="occupation"
+                 id="occupation"
+                 class="form-control"
+                 placeholder="what is your occupation"
+                 required
+                 />
+        </div>
+        
+        <div class="form-group">
+          <label id="activity" for="activity-level">
+            How active are you? (on a scale of 1 to 10)
+          </label>
+           <input  
+           type="number"
+                 name="activity-level"
+                 id="activity-level"
+                  min="1"
+                  max="10"
+                 class="form-control"
+                 placeholder="activity-level"
+                 required
+                 />
+        </div>
+      
+        <div class="form-group">
+          <p id="dropdown"> How often do you eat out? </p>
+          <select id="dropdown-class" name="eat-out" required> 
+          <option disabled selected value>Select the best described </option>
+            <option value="daily"> Daily </option>
+            <option value="bi-weekly"> 2-3 times weekly </option>
+            <option value="weekly"> Once in a week </option>
+            <option value="2x-monthly"> Twice on a month</option>
+            <option value="Irregular"> Irregular </option>
+          
+          </select> 
+        </div>
+        
+        <div class="form-group">
+          <label id="label-allergy" for="allergies">
+            Food allergies, intolerances and dislikes </label>
+          <input 
+                 type="text"
+                 name="allergy"
+                 id="allergy"
+                 class="form-control"
+                 placeholder="answer"
+                 required
+                 />
+        </div>
+        
+        <div class="form-group">
+          <label id="label-addictions" for="food-addictions">
+            Food addictions i.e what you enjoy consuming a great deal e.g carbonated drinks, small chops etc </label>
+          <input 
+                 type="text"
+                 name="food-addictions"
+                 id="addictions"
+                 class="form-control"
+                 placeholder="food addictions"
+                 required
+                 />
+        </div>
+        
+        <div class="form-group">
+          <label id="nutritional-goal" for "nutritional-goal"> What is your nutritional goal?
+          </label>
+          <input 
+                 type="text"
+                 name="nutritional-goal"
+                 id="nutritional-goal"
+                 class="form-control"
+                 placeholder="e.g. loss 10kg, manage sugar levels"
+                 required
+                 />
+        </div>
+        
+        <div class="form-group"> 
+          <p> Additional Comments </p>
+          <textarea
+                     id="comments"
+                     name="comments"
+                    class="form-control"
+                     placeholder="enter your additional comments" 
+                    required
+                    ></textarea>
+        </div>
+        
+       
+          <button type="submit" id="submit"> Submit
+          </button>
+       
+        
+      </form>
+        </div>
+        
+        </body>
+        
+      </html>
+
+</body>
+</html>
