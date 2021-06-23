@@ -87,7 +87,7 @@ label {
 
 button {
   background: #ffff00;
-  align: center;
+  text-align: center;
   width: 35%;
   margin: 50px auto;
   padding: 10px 10px;
